@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>High-Load AdTech Platform Case Study</title>
+
+
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+
+
+
+<style>
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+
+
+body {
+
+    font-family: 'Montserrat', sans-serif;
+
+    background-color: #f3f4f6;
+
+    color: #000;
+
+}
+
+
+
+a {
+
+    text-decoration: none;
+
+    color: inherit;
+
+    cursor: pointer;
+
+}
+
+
+
+.container {
+
+    max-width: 1200px;
+
+    margin: 80px auto;
+
+    padding: 0 40px;
+
+}
+
+
+
+.section {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 60px;
+
+    margin-bottom: 100px;
+
+}
+
+
+
+.section-text {
+
+    flex: 1;
+
+}
+
+
+
+.section-text h2 {
+
+    font-size: 36px;
+
+    font-weight: 800;
+
+    line-height: 1.1;
+
+    margin-bottom: 40px;
+
+}
+
+
+
+.section-text p {
+
+    font-size: 18px;
+
+    line-height: 1.6;
+
+    color: #4a4a4a;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+.section ul {
+
+    padding-left: 20px;
+
+}
+
+
+
+.section li {
+
+    font-size: 18px;
+
+    margin-bottom: 12px;
+
+    line-height: 1.6;
+
+    color: #4a4a4a;
+
+}
+
+
+
+.highlight {
+
+    color: #0066cc;
+
+}
+
+
+
+.section-image {
+
+    flex: 1;
+
+}
+
+
+
+.section-image img {
+
+    width: 100%;
+
+    max-width: 600px;
+
+    border-radius: 14px;
+
+    object-fit: cover;
+
+    display: block;
+
+}
+
+
+
+.tech-table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin-top: 20px;
+
+    background: #ffffff;
+
+    border-radius: 12px;
+
+    overflow: hidden;
+
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+
+}
+
+
+
+.tech-table thead {
+
+    background-color: #f8f9fb;
+
+}
+
+
+
+.tech-table th,
+
+.tech-table td {
+
+    padding: 18px 24px;
+
+    font-size: 16px;
+
+    text-align: left;
+
+}
+
+
+
+.tech-table th {
+
+    font-weight: 600;
+
+    color: #000;
+
+    border-bottom: 1px solid #e6e6e6;
+
+}
+
+
+
+.tech-table td {
+
+    color: #4a4a4a;
+
+    border-bottom: 1px solid #eeeeee;
+
+}
+
+
+
+.tech-table tr:last-child td {
+
+    border-bottom: none;
+
+}
+
+
+
+.tech-table tr:hover {
+
+    background-color: #f5f8ff;
+
+    transition: background-color 0.2s ease;
+
+}
+
+
+
+@media (max-width: 1100px) {
+
+    .section {
+
+        flex-direction: column;
+
+    }
+
+
+
+    .section-text h2 {
+
+        font-size: 34px;
+
+    }
+
+}
+
+
+
+@media (max-width: 600px) {
+
+    .section-text h2 {
+
+        font-size: 28px;
+
+    }
+
+
+
+    .section p,
+
+    .section li {
+
+        font-size: 16px;
+
+    }
+
+
+
+    .tech-table td,
+
+    .tech-table th {
+
+        padding: 14px 16px;
+
+        font-size: 14px;
+
+    }
+
+}
+
+</style>
+
+</head>
+
+
+
+<body>
+
+
+
+<div class="container">
+
+
+
+	<!-- HERO --> <section class="section">
+
+	<div class="section-text">
+
+		<h2>
+
+		High-Load AdTech Platform for RTB and Real-Time Content Delivery </h2>
+
+		<p>
+
+ <a href="https://scand.com/industries/advertising/" target="_blank"><u>Custom AdTech software development</u></a> · High-Load Systems · <a href="https://scand.com/technologies/net/" target="_blank"><u>.NET development</u></a> · Redis · MS SQL · Private cloud infrastructure optimization · <a href="https://scand.com/hire-asp-net-core-developers/" target="_blank"><u>ASP.NET Core Developers</u></a>
+
+		</p>
+
+		<p>
+
+			A high-load news and advertising delivery platform designed for millisecond latency and extreme scalability and combining a custom-built content delivery network, real-time impression tracking, <span class="highlight">programmatic</span> DSP-based ad auctions, DMP integration, and an out-of-the-box recommender system.
+
+		</p>
+
+	</div>
+
+	<div class="section-image">
+
+ <img alt="Hero image" src="images/your-image.jpg">
+
+	</div>
+
+ </section>
+
+	<!-- OVERVIEW --> <section class="section">
+
+	<div class="section-image">
+
+ <img alt="overview image" src="images/your-image.jpg"> 
+
+	</div>
+
+	<div class="section-text">
+
+		<h2>Overview of Our Client</h2>
+
+		<p>
+
+			Our client was a high-traffic digital media and AdTech provider delivering news and advertising content for top-tier websites. The company operated in an environment where performance and scalability directly impacted user engagement and advertising revenue, so the platform needed to handle massive volumes of traffic with consistently low latency.
+
+		</p>
+
+		<p>
+
+			Since the client relied on private cloud infrastructure with strict on-premise limitations, they could not use standard public cloud auto-scaling or managed CDN services. This made it necessary to build a fully self-sufficient delivery ecosystem capable of supporting <span class="highlight">programmatic advertising workflows</span>, live ad auctions, precise impression tracking, and diverse multimedia content formats at scale — a challenge that required deep expertise in <span class="highlight">AdTech development</span>.
+
+		</p>
+
+	</div>
+
+ </section>
+
+	<!-- CHALLENGE --> <section class="section">
+
+	<div class="section-text">
+
+		<h2>Challenge</h2>
+
+		<p>
+
+			The client needed to build a platform capable of competing with global content delivery networks and <span class="highlight">AdTech development</span> ecosystems, but without access to typical public cloud tooling. This way, the main challenges included:
+
+		</p>
+
+		<ul>
+
+			<li>Operating under private cloud constraints with no native AWS/Azure-style auto-scaling.</li>
+
+			<li>Achieving millisecond-level latency while processing over 100 million requests per day.</li>
+
+			<li>Supporting diverse content formats including video fragments, interactive HTML, sliders, animations, and media-heavy layouts.</li>
+
+			<li>Tracking impressions, views, and clicks in near real time to get accurate billing and analytics.</li>
+
+			<li>Delivering a complete out-of-the-box platform (not just separate components or integrations), including admin panels, near-real-time reporting, import/export workflows, and the core engine for counting impressions and clicks.</li>
+
+		</ul>
+
+	</div>
+
+	<div class="section-image">
+
+ <img alt="CHALLENGE image" src="images/your-image.jpg">
+
+	</div>
+
+ </section>
+
+	<!-- OBJECTIVES --> <section class="section">
+
+	<div class="section-image">
+
+ <img alt="OBJECTIVES image" src="images/your-image.jpg">
+
+	</div>
+
+	<div class="section-text">
+
+		<h2>Primary Objectives</h2>
+
+		<p>
+
+			To satisfy all the requirements of the project, we defined several key objectives:
+
+		</p>
+
+		<ul>
+
+			<li>Bridge the gap between user data (DMP) and real-time ad auctions (DSP).</li>
+
+			<li>Implement a custom CDN and caching layer to ensure top-tier site performance on private infrastructure.</li>
+
+			<li>Use an out-of-the-box recommender system to increase user retention and click-through rates, powered by large-scale sparse matrix algorithms for millions of daily users.</li>
+
+			<li>Develop a system that would automatically recover from hardware-level disasters without manual intervention.</li>
+
+		</ul>
+
+	</div>
+
+ </section>
+
+	<!-- PROJECT OVERVIEW --> <section class="section">
+
+	<div class="section-text">
+
+			<h2>Project Overview</h2>
+
+			<p>
+
+				We created a custom-built high-load delivery and AdTech platform based on .NET, using an MS SQL Always-On Cluster as the primary database backend and Redis as a high-performance layer for real-time counters and caching.
+
+			</p>
+
+			<p>
+
+				The platform included a purpose-built delivery network capable of distributing diverse content formats, along with scalable media delivery logic for images and video fragments. To prove stability, we also developed custom monitoring capabilities that gave DevOps teams full visibility into Redis usage, delivery network order, and long-running recommender system computations.
+
+			</p>
+
+			<p>
+
+				We also implemented disaster recovery at both the infrastructure and application levels, which allowed the platform to automatically fail over and restore services even during hardware-level failures.
+
+			</p>
+
+		
+
+	</div>
+
+	<div class="section-image">
+
+ <img alt="OVERVIEW image" src="images/your-image.jpg">
+
+	</div>
+
+ </section>
+
+	<!-- SOLUTION --> <section class="section">
+
+	<div class="section-image">
+
+ <img alt="SOLUTION image" src="images/your-image.jpg">
+
+	</div>
+
+	<div class="section-text">
+
+		<h2>Solution</h2>
+
+		<p>
+
+			RNetPlus was a masterclass in custom systems engineering. While most modern AdTech and content delivery platforms relied heavily on public cloud services, RNetPlus was built for a private infrastructure environment where every byte of performance had to be hand-tuned.
+
+		</p>
+
+		<p>
+
+			The platform managed the entire lifecycle of a news impression end to end. It identified users through a “digital portrait” mechanism, launched a high-speed DSP auction to select the best offer, and delivered the final content package to the user, whether it was a simple news block, a video fragment, or a complex HTML5 slider with interactive elements. All of this was executed with millisecond-level precision, even under massive daily traffic volumes (typical workload was ~100M views per day).
+
+		</p>
+
+	</div>
+
+ </section>
+
+	<!-- KEY FEATURES --> <section class="section">
+
+	<div class="section-text">
+
+		<h2>Key Features</h2>
+
+		<ul>
+
+			<li>Custom-engineered CDN and caching layer for private cloud.</li>
+
+			<li>Real-time analytics engine using Redis.</li>
+
+			<li>Millisecond-latency delivery at 100M+ daily requests.</li>
+
+			<li>Support for text, images, video fragments, HTML widgets, sliders, animations.</li>
+
+			<li>Advanced DSP bidding algorithms with relevance ranking.</li>
+
+			<li>DMP integration with digital portrait profiling.</li>
+
+			<li>Built-in recommender system.</li>
+
+			<li>Custom monitoring dashboards.</li>
+
+			<li>Automated disaster recovery with failover logic.</li>
+
+		</ul>
+
+	</div>
+
+	<div class="section-image">
+
+ <img alt="Features image" src="images/your-image.jpg">
+
+	</div>
+
+ </section>
+
+	<!-- TECHNOLOGY STACK --> <section class="section">
+
+	<div class="section-image">
+
+ <img alt="TECHNOLOGY image" src="images/your-image.jpg">
+
+	</div>
+
+	<div class="section-text">
+
+		<h2>Technology Stack</h2>
+
+		<p>
+
+		To fulfill the project’s extreme performance requirements, we used a carefully selected technology stack:
+
+	</p>
+
+	
+
+	<table class="tech-table">
+
+    <tbody>
+
+        <tr>
+
+            <td><strong>Core Framework</strong></td>
+
+            <td>.NET</td>
+
+        </tr>
+
+        <tr>
+
+            <td><strong>Primary Database</strong></td>
+
+            <td>MS SQL Server (Always-On Cluster)</td>
+
+        </tr>
+
+        <tr>
+
+            <td><strong>Caching & Real-Time Counts</strong></td>
+
+            <td>Redis (high-performance configuration)</td>
+
+        </tr>
+
+        <tr>
+
+            <td><strong>Infrastructure</strong></td>
+
+            <td>Private Cloud (Virtual Machines)</td>
+
+        </tr>
+
+        <tr>
+
+            <td><strong>Orchestration & Monitoring</strong></td>
+
+            <td>Custom monitoring and scaling logic</td>
+
+        </tr>
+
+        <tr>
+
+            <td><strong>AdTech Components</strong></td>
+
+            <td>In-house DSP auctions implementation and DMP integration enabling fully custom bidding and targeted ad delivery</td>
+
+        </tr>
+
+        <tr>
+
+            <td><strong>Delivery Layer</strong></td>
+
+            <td>Custom CDN and caching network</td>
+
+        </tr>
+
+    </tbody>
+
+</table>
+
+	</div>
+
+ </section>
+
+	<!-- RESULTS --> <section class="section">
+
+	<div class="section-text">
+
+		<h2>Results</h2>
+
+		<p>
+
+			RNetPlus became a production-grade high-load ecosystem capable of supporting top-tier publishers and AdTech work cycles without dependency on public cloud services.
+
+		</p>
+
+		<ul>
+
+			<li>By building its own delivery network and cache, the business avoided being “locked in” to expensive cloud provider fees.</li>
+
+			<li>Millisecond-level latencies on top-tier sites drove higher engagement and improved ad performance.</li>
+
+			<li>Precision counting and DSP auctions guaranteed that every impression was monetized at its maximum potential value.</li>
+
+			<li>The “bullet-proof” disaster recovery ensured that even hardware-level failures didn’t affect the bottom line or the publisher’s reputation. In one real incident, the platform recovered after an MS SQL Always-On Cluster crash during Christmas night, with only minor reporting delays.</li>
+
+		</ul>
+
+	</div>
+
+	<div class="section-image">
+
+ <img alt="RESULTS image" src="images/your-image.jpg">
+
+	</div>
+
+ </section>
+
+	<!-- CORE TEAM --> <section class="section">
+
+	<div class="section-image">
+
+ <img alt="TEAM image" src="images/your-image.jpg">
+
+	</div>
+
+	<div class="section-text">
+
+		<h2>Core Team</h2>
+
+		<ul>
+
+			<li><strong>Systems &amp; Performance Architects:</strong> Designed the low-latency delivery architecture and .NET performance optimization strategy.</li>
+
+			<li><strong>AdTech Developers: </strong>Built and optimized our in-house DSP auctions and real-time bidding algorithms.</li>
+
+			<li><strong>Partner / External DMP Team: </strong>Handled DMP integration and digital portrait profiling for targeted ad delivery.</li>
+
+			<li><strong>Data Scientists:</strong> Developed the recommender system logic and engagement optimization models.</li>
+
+			<li><strong>Database &amp; Cache Experts:</strong> Managed MS SQL Always-On cluster and high-traffic Redis configuration.</li>
+
+			<li><strong>Private Cloud DevOps Engineers:</strong> Built custom monitoring, scaling tools, and delivery infrastructure logic.</li>
+
+		</ul>
+
+	</div>
+
+ </section>
+
+</div>
+
+</body>
+
+</html>
